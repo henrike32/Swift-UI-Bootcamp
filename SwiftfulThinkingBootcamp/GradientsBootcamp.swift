@@ -11,10 +11,10 @@ struct GradientsBootcamp: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 25)
             .fill(
-//                Color.red
+//                .red
 //                LinearGradient(
 // MARK: estilo 1 
-//                    gradient: Gradient(colors: [Color.green, Color.blue, Color.orange, Color.purple]),
+//                    gradient: Gradient(colors: [.green, .blue, .orange, .purple]),
 //                startPoint: .topLeading,
 //                endPoint: .bottomTrailing)
 // MARK: estilo 2 
