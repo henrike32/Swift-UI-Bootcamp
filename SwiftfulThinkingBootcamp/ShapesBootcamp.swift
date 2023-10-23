@@ -16,14 +16,14 @@ struct ShapesBootcamp: View {
         RoundedRectangle(cornerRadius: 10)
 
         
-//            .fill(Color.green)
+//            .fill(.green)
 //            .foregroundColor(.green)
 //            .stroke()
-//            .stroke(Color.red)
-//            .stroke(Color.blue, lineWidth: 30)
-//            .stroke(Color.orange, style: StrokeStyle(lineWidth: 20, lineCap: .round, dash: [70]))
+//            .stroke(.red)
+//            .stroke(.blue, lineWidth: 30)
+//            .stroke(.orange, style: StrokeStyle(lineWidth: 20, lineCap: .round, dash: [70]))
             .trim(from: 0.4, to: 1)
-//            .stroke(Color.purple, lineWidth: 50)
+//            .stroke(.purple, lineWidth: 50)
             .frame(width: 300, height: 200)
         
     }
